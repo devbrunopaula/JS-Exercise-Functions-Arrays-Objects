@@ -39,6 +39,7 @@ function sayGoodbye(name) {
   return `Goodbye, ${name}. Have a great day.`
 }
 
+console.log(123)
 /**
  * ### Challenge `temperatureCtoF`
  * 
