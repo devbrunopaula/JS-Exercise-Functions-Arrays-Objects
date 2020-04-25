@@ -175,12 +175,18 @@ function appleIndex(items) {
  * the returned value should be: [ false, true, false, false, true, false ].
 */
 function isItAnApple(items) {
- return items.includes('apple')
-}
 
-const repFruits = [ 'orange', 'apple', 'banana', 'apples', 'apple', 'mango' ];
-
-console.log(isItAnApple(repFruits))
+  let result = [];
+  
+   for(let i = 0; i < items.length; i++){
+       if( items[i] == 'apple'){
+        result.push(true)
+       } else {
+        result.push(false)
+     }
+   }
+         return result
+  }
 
 /*
 // ⭐️ Example Test Data ⭐️
@@ -235,7 +241,7 @@ function get3rdCar(inventory) {
  * it will return `This is a Lincoln Navigator`.
 */
 function getCarInfoByIndex(inventory, index) {
-  /* code here */
+  return `This is a ${inventory[index].car_make} ${inventory[index].car_model}`
 }
 
 /**
