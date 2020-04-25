@@ -22,6 +22,7 @@ function addNumbers(num1, num2) {
 // 👇 COMPLETE YOUR WORK BELOW 👇
 // 👇 COMPLETE YOUR WORK BELOW 👇
 // 👇 COMPLETE YOUR WORK BELOW 👇
+// 👇 COMPLETE YOUR WORK BELOW 👇
 
 /**
  * ### Challenge `sayGoodbye`
@@ -38,8 +39,11 @@ function addNumbers(num1, num2) {
 function sayGoodbye(name) {
   return `Goodbye, ${name}. Have a great day.`
 }
+function sayGoodbye(name) {
+  return `Goodbye, ${name}. Have a great day.`
+}
 
-console.log(123)
+
 /**
  * ### Challenge `temperatureCtoF`
  * 
